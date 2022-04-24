@@ -25,46 +25,6 @@
 		<title>Denis Bošnjaković</title>
 	</head>
 
-	<div class="modal fade" id="audioModal" tabindex="-1" aria-labelledby="audioModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered text-dark">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="audioModalLabel">Audio</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					<audio class="mb-3 w-100" controls>
-						<source src="audio/denis.ogg" type="audio/ogg" />
-						Vaš preglednik ne podržava audio element!
-					</audio>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zatvori</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered modal-lg text-dark">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="videoModalLabel">Video</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					<video class="ratio ratio-16x9" controls>
-						<source src="video/denis.webm" type="video/webm" />
-						Vaš preglednik ne podržava video element!
-					</video>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zatvori</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<body class="d-flex flex-column min-vh-100">
 		<main class="flex-shrink-0">
 			<div class="container">
@@ -73,7 +33,11 @@
 				<div class="row">
 					<div class="col-lg-5 pt-5">
 						<div class="center-top">
-							<img class="profile-img img-fluid img-thumbnail" alt="slika" src="img/profil.png" />
+							<img
+								class="profile-img img-fluid img-thumbnail"
+								alt="Denis Bošnjaković - Slika profila"
+								src="img/profil.png"
+							/>
 						</div>
 					</div>
 
@@ -95,26 +59,6 @@
 									Elektrotehničkoj i prometnoj školi Osijek </a
 								>.
 							</p>
-							<div class="container">
-								<div class="btn-group my-3">
-									<button
-										type="button"
-										class="btn btn-sm btn-success rounded-end rounded-pill"
-										data-bs-toggle="modal"
-										data-bs-target="#audioModal"
-									>
-										Poslušajte audio
-									</button>
-									<button
-										type="button"
-										class="btn btn-sm btn-warning rounded-start rounded-pill"
-										data-bs-toggle="modal"
-										data-bs-target="#videoModal"
-									>
-										Pogledajte video
-									</button>
-								</div>
-							</div>
 
 							<h3 class="mt-3">Vještine</h3>
 							<ul class="skills-list">

@@ -18,4 +18,14 @@
 
 .index-card {
 	width: 23rem;
+	transition: transform 0.2s;
+}
+
+.index-card:hover {
+	transition: transform 0.2s;
+	transform: scale(1.05);
+}
+
+.modal-content {
+	background-color: #161718;
 }

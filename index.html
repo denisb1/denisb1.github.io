@@ -23,6 +23,55 @@
 		<title>Multimedijska tehnika - Konstrukcijske vježbe</title>
 	</head>
 
+	<div
+		class="modal fade"
+		id="denisAudioModal"
+		tabindex="-1"
+		aria-labelledby="denisAudioModalLabel"
+		aria-hidden="true"
+	>
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="denisAudioModalLabel">Audio</h5>
+				</div>
+				<div class="modal-body">
+					<audio class="mb-3 w-100" controls>
+						<source src="audio/denis.ogg" type="audio/ogg" />
+						Vaš preglednik ne podržava audio element!
+					</audio>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div
+		class="modal fade"
+		id="denisVideoModal"
+		tabindex="-1"
+		aria-labelledby="denisVideoModalLabel"
+		aria-hidden="true"
+	>
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="denisVideoModalLabel">Video</h5>
+				</div>
+				<div class="modal-body">
+					<video class="ratio ratio-16x9" controls>
+						<source src="video/denis.webm" type="video/webm" />
+						Vaš preglednik ne podržava video element!
+					</video>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<body class="d-flex flex-column min-vh-100">
 		<main class="flex-shrink-0 d-grid">
 			<img
@@ -39,7 +88,7 @@
 			<div class="container grid-item">
 				<h2 class="my-4 center">Multimedijska tehnika</h2>
 				<div class="row mt-4 py-3">
-					<div class="col-lg-6 center mb-3">
+					<div class="col-lg-6 center mb-4">
 						<div class="card index-card text-dark">
 							<a target="_blank" href="img/placeholder_l.png">
 								<img
@@ -50,18 +99,36 @@
 							</a>
 							<div class="card-body">
 								<h4 class="card-title center">Zvonimir Grizelj</h4>
-								<p class="card-text">
-									Some quick example text to build on the card title and make up the bulk of the
-									card's content.
-								</p>
-								<a href="#" class="btn btn-primary rounded-end rounded-pill">
-									Pogledajte moj portfolio
-								</a>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										<button
+											type="button"
+											class="btn btn-primary list-group-item w-100"
+											data-bs-toggle="modal"
+											data-bs-target="#zvonimirAudioModal"
+										>
+											Poslušajte audio
+										</button>
+									</li>
+									<li class="list-group-item">
+										<button
+											type="button"
+											class="btn btn-primary list-group-item w-100"
+											data-bs-toggle="modal"
+											data-bs-target="#zvonimirVideoModal"
+										>
+											Pogledajte video
+										</button>
+									</li>
+									<li class="list-group-item">
+										<a href="#" class="btn btn-dark w-100">Pogledajte portfolio</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-lg-6 center mb-3">
+					<div class="col-lg-6 center mb-4">
 						<div class="card index-card text-dark">
 							<a target="_blank" href="img/placeholder_l.png">
 								<img
@@ -72,13 +139,31 @@
 							</a>
 							<div class="card-body">
 								<h4 class="card-title center">Denis Bošnjaković</h4>
-								<p class="card-text">
-									Bok, zovem se Denis i trenutno sam student treće godine preddiplomskog stručnog
-									studija računarstva na Fakultetu elektrotehnike, računarstv...
-								</p>
-								<a href="denis.html" class="btn btn-primary rounded-start rounded-pill">
-									Pogledajte moj portfolio
-								</a>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										<button
+											type="button"
+											class="btn btn-primary list-group-item w-100"
+											data-bs-toggle="modal"
+											data-bs-target="#denisAudioModal"
+										>
+											Poslušajte audio
+										</button>
+									</li>
+									<li class="list-group-item">
+										<button
+											type="button"
+											class="btn btn-primary list-group-item w-100"
+											data-bs-toggle="modal"
+											data-bs-target="#denisVideoModal"
+										>
+											Pogledajte video
+										</button>
+									</li>
+									<li class="list-group-item">
+										<a href="denis.html" class="btn btn-dark w-100"> Pogledajte portfolio </a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
