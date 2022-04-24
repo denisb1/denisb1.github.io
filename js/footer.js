@@ -3,7 +3,12 @@ function addFooter() {
 	footer.classList.add("mt-auto", "py-3", "bg-dark", "text-muted");
 
 	const container = document.createElement("div");
-	container.classList.add("container-fluid");
+	container.classList.add("container");
+
+	const logo = document.createElement("img");
+	logo.src = "img/ferit-logo.png";
+	logo.alt = "FERIT logo";
+	logo.style.marginBottom = "1rem";
 
 	const copyright = document.createElement("div");
 	copyright.classList.add("fw-bold");
@@ -29,6 +34,7 @@ function addFooter() {
 	info.innerHTML += "&nbsp;u sklopu kolegija&nbsp;";
 	info.appendChild(mmtLink);
 
+	container.appendChild(logo);
 	container.appendChild(copyright);
 	container.appendChild(info);
 	footer.appendChild(container);
