@@ -9,16 +9,13 @@
 	min-height: 100%;
 	max-height: 100%;
 	width: 100vw;
+}
 
+.wallpaper-background {
 	object-fit: cover;
 	clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
 .index-card {
-	width: 22rem;
-}
-
-.index-card-text {
-	background-color: hsla(100, 100%, 100%, 0.66);
-	border-radius: 10px;
+	width: 23rem;
 }
