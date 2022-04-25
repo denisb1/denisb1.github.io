@@ -1,0 +1,15 @@
+.profile-img {
+	max-height: 44vh;
+	border-radius: 5rem;
+}
+
+.skills-list {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1rem;
+	text-indent: 0.5rem;
+}
+
+.text-indent {
+	text-indent: 1rem;
+}

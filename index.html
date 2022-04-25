@@ -18,74 +18,173 @@
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"
 		></script>
+		<script src="js/footer.js"></script>
 
-		<title>MMT</title>
+		<title>Multimedijska tehnika - Konstrukcijske vježbe</title>
 	</head>
+
+	<div
+		class="modal fade"
+		id="denisAudioModal"
+		tabindex="-1"
+		aria-labelledby="denisAudioModalLabel"
+		aria-hidden="true"
+	>
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="denisAudioModalLabel">Audio</h5>
+				</div>
+				<div class="modal-body">
+					<audio class="mb-3 w-100" controls>
+						<source src="audio/denis.ogg" type="audio/ogg" />
+						Vaš preglednik ne podržava audio element!
+					</audio>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div
+		class="modal fade"
+		id="denisVideoModal"
+		tabindex="-1"
+		aria-labelledby="denisVideoModalLabel"
+		aria-hidden="true"
+	>
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="denisVideoModalLabel">Video</h5>
+				</div>
+				<div class="modal-body">
+					<video class="ratio ratio-16x9" controls>
+						<source src="video/denis.webm" type="video/webm" />
+						Vaš preglednik ne podržava video element!
+					</video>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<body class="d-flex flex-column min-vh-100">
 		<main class="flex-shrink-0 d-grid">
-			<img class="img-fluid grid-item wallpaper" src="img/wallpaper.webp" alt="Wallpaper" />
-			<div class="container grid-item mt-5 py-5">
-				<div class="row">
-					<div class="col-md-5 center">
-						<div class="text-dark index-card">
+			<img
+				class="img-fluid grid-item wallpaper wallpaper-background"
+				src="img/wallpaper.webp"
+				alt="Pozadinska slika - Programski kod"
+			/>
+			<img
+				src="img/wallpaper-overlay.png"
+				alt="Pozadinska slika - Tamni overlay"
+				class="border-0 img-fluid grid-item wallpaper"
+			/>
+
+			<div class="container grid-item">
+				<h2 class="my-4 center">Multimedijska tehnika</h2>
+				<div class="row mt-4 py-3">
+					<div class="col-lg-6 center mb-4">
+						<div class="card index-card text-dark">
 							<a target="_blank" href="img/placeholder_l.png">
-								<img class="card-img-top img-thumbnail" alt="avatar" src="img/placeholder_s.png" />
+								<img
+									class="card-img-top img-thumbnail"
+									alt="Zvonimir Grizelj - Slika profila"
+									src="img/placeholder_s.png"
+								/>
 							</a>
-							<div class="card-body mt-5 index-card-text">
-								<h5 class="card-title center">Zvonimir Grizelj</h5>
-								<p class="card-text">
-									Some quick example text to build on the card title and make up the bulk of the
-									card's content.
-								</p>
-								<a href="#" class="btn btn-primary">Go somewhere</a>
+							<div class="card-body">
+								<h4 class="card-title center">Zvonimir Grizelj</h4>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										<button
+											type="button"
+											class="btn btn-primary list-group-item w-100"
+											data-bs-toggle="modal"
+											data-bs-target="#zvonimirAudioModal"
+										>
+											Poslušajte audio
+										</button>
+									</li>
+									<li class="list-group-item">
+										<button
+											type="button"
+											class="btn btn-primary list-group-item w-100"
+											data-bs-toggle="modal"
+											data-bs-target="#zvonimirVideoModal"
+										>
+											Pogledajte video
+										</button>
+									</li>
+									<li class="list-group-item">
+										<a href="#" class="btn btn-dark w-100">Pogledajte portfolio</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-2">
-						<br />
-					</div>
-
-					<div class="col-md-5 center">
-						<div class="text-dark index-card">
+					<div class="col-lg-6 center mb-4">
+						<div class="card index-card text-dark">
 							<a target="_blank" href="img/placeholder_l.png">
-								<img class="card-img-top img-thumbnail" alt="avatar" src="img/placeholder_s.png" />
+								<img
+									class="card-img-top img-thumbnail"
+									alt="Denis Bošnjaković - Slika profila"
+									src="img/placeholder_s.png"
+								/>
 							</a>
-							<div class="card-body mt-5 index-card-text">
-								<h5 class="card-title center">Denis Bošnjaković</h5>
-								<p class="card-text">
-									Some quick example text to build on the card title and make up the bulk of the
-									card's content.
-								</p>
-								<a href="#" class="btn btn-primary">Go somewhere</a>
+							<div class="card-body">
+								<h4 class="card-title center">Denis Bošnjaković</h4>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										<button
+											type="button"
+											class="btn btn-primary list-group-item w-100"
+											data-bs-toggle="modal"
+											data-bs-target="#denisAudioModal"
+										>
+											Poslušajte audio
+										</button>
+									</li>
+									<li class="list-group-item">
+										<button
+											type="button"
+											class="btn btn-primary list-group-item w-100"
+											data-bs-toggle="modal"
+											data-bs-target="#denisVideoModal"
+										>
+											Pogledajte video
+										</button>
+									</li>
+									<li class="list-group-item">
+										<a href="denis.html" class="btn btn-dark w-100"> Pogledajte portfolio </a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="container py-3">
+					<h4>Linkovi na druge stranice</h4>
+					<ul>
+						<li>
+							<a target="_blank" href="#">Link 1</a>
+						</li>
+						<li>
+							<a target="_blank" href="#">Link 2</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</main>
 
-		<footer class="footer mt-auto py-3 bg-dark text-muted">
-			<div class="container-fluid">
-				<div class="fw-bold">&copy; 2022. - Denis Bošnjaković, Zvonimir Grizelj</div>
-
-				<div class="mt-2">
-					Web stranica izrađena za vrijeme pohađanja
-					<a class="link-primary fst-italic" href="https://www.ferit.unios.hr" target="_blank">
-						Fakulteta elektrotehnike, računarstva i informacijskih tehnologija Osijek
-					</a>
-
-					&nbsp;u sklopu kolegija
-					<a
-						class="link-primary fst-italic"
-						href="https://moodle.srce.hr/2021-2022/course/view.php?id=101998"
-						target="_blank"
-					>
-						Multimedijska tehnika
-					</a>
-				</div>
-			</div>
-		</footer>
+		<footer id="footer"></footer>
+		<script>
+			addFooter();
+		</script>
 	</body>
 </html>
