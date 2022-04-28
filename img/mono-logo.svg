@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   x="0px"
+   y="0px"
+   width="140"
+   height="42"
+   viewBox="0 0 140 42"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="mono-logo.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="4.6204397"
+     inkscape:cx="78.022878"
+     inkscape:cy="20.236169"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <g
+     id="g14">
+    <path
+       class="logo__path"
+       fill="#E83D44"
+       d="M27,17.8l3.8-3.8l3.8,3.8l-3.8,3.8L27,17.8z M39.4,17.8l-6.2-6.2L37,7.7l10,10L30.8,34L14.5,17.8l10-10                                   l3.8,3.8l-6.2,6.2l8.6,8.6L39.4,17.8z M30.8,9.2l-6.2-6.2L9.8,17.8l21,21l21-21L37,2.9L30.8,9.2z"
+       id="path2" />
+    <g
+       id="g12">
+      <path
+         class="logo__path"
+         fill="#E83D44"
+         d="M81.4,14.5c2.4,0,4.1,1.4,4.1,4.2v9.3h-4.3v-7.9c0-1.3-0.4-2.1-1.7-2.1c-1.1,0-2,0.8-2,2.8v7.2h-4.3v-7.9                                    c0-1.3-0.4-2.1-1.7-2.1c-1.1,0-2,0.8-2,2.8v7.2h-4.3V14.8h3.7l0.5,2.5c0.6-1.9,2.2-2.9,4.1-2.9c1.9,0,3.4,1,3.9,2.8                                    C77.9,15.6,79.5,14.5,81.4,14.5L81.4,14.5z"
+         id="path4" />
+      <path
+         class="logo__path"
+         fill="#E83D44"
+         d="M93.8,28.4c-4,0-6.7-2.5-6.7-6.9c0-4.4,2.7-6.9,6.7-6.9c4,0,6.6,2.5,6.6,6.9C100.4,25.9,97.7,28.4,93.8,28.4z                                     M93.8,17.7c-1.6,0-2.4,1.4-2.4,3.8c0,2.4,0.7,3.8,2.4,3.8c1.6,0,2.4-1.3,2.4-3.8C96.1,19,95.4,17.7,93.8,17.7z"
+         id="path6" />
+      <path
+         class="logo__path"
+         fill="#E83D44"
+         d="M106.4,17.4c0.7-1.8,2.2-2.9,4.2-2.9c2.4,0,4.1,1.5,4.1,4.3v9.3h-4.3v-7.9c0-1.3-0.5-2.1-1.7-2.1                                    c-1.2,0-2.2,0.8-2.2,2.8v7.2h-4.3V14.8h3.7L106.4,17.4z"
+         id="path8" />
+      <path
+         class="logo__path"
+         fill="#E83D44"
+         d="M123.1,28.4c-4,0-6.7-2.5-6.7-6.9c0-4.4,2.7-6.9,6.7-6.9c4,0,6.6,2.5,6.6,6.9                                    C129.8,25.9,127.1,28.4,123.1,28.4z M123.1,17.7c-1.6,0-2.4,1.4-2.4,3.8c0,2.4,0.7,3.8,2.4,3.8c1.6,0,2.4-1.3,2.4-3.8                                    C125.5,19,124.7,17.7,123.1,17.7z"
+         id="path10" />
+    </g>
+  </g>
+</svg>
