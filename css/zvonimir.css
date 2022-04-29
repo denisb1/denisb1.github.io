@@ -1,0 +1,25 @@
+.profile-img {
+	max-height: 44vh;
+	border-radius: 5rem;
+}
+
+.edu-img {
+	height: 15vh;
+	border-radius: 1rem;
+}
+
+.edu:hover .edu-img{
+	opacity: 0.3;
+	height: 17vh;
+}
+
+.about-list {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1rem;
+	text-indent: 0.5rem;
+}
+
+.text-indent {
+	text-indent: 1rem;
+}
