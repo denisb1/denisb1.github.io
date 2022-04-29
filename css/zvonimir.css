@@ -23,3 +23,7 @@
 .text-indent {
 	text-indent: 1rem;
 }
+
+.lang-logo {
+	max-width: 66px;
+}
