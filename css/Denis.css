@@ -1,5 +1,5 @@
 .profile-img {
-	max-height: 44vh;
+	max-height: 25rem;
 	border-radius: 5rem;
 }
 
@@ -12,4 +12,41 @@
 
 .text-indent {
 	text-indent: 1rem;
+}
+
+.horizontal-scroll {
+	width: 95%;
+	max-width: 95%;
+
+	overflow-x: auto;
+	align-items: stretch;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.horizontal-scroll > a {
+	margin-right: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.horizontal-scroll > a:last-child {
+	margin-right: 0;
+}
+
+.lang-logo {
+	max-width: 56px;
+}
+
+.fade-in {
+	animation: fade-in 2.25s;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
