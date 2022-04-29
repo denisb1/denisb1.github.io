@@ -60,8 +60,8 @@
 				<div class="modal-header">
 					<h5 class="modal-title" id="denisVideoModalLabel">Video</h5>
 				</div>
-				<div class="modal-body">
-					<video class="ratio ratio-16x9" controls>
+				<div class="modal-body center">
+					<video class="ratio modal-video" controls>
 						<source src="video/denis.webm" type="video/webm" />
 						Vaš preglednik ne podržava video element!
 					</video>
@@ -72,7 +72,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div
 		class="modal fade"
 		id="zvonimirAudioModal"
@@ -90,6 +89,30 @@
 						<source src="audio/zvonimir.m4a" type="audio/aac" />
 						Vaš preglednik ne podržava audio element!
 					</audio>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div
+		class="modal fade"
+		id="zvonimirVideoModal"
+		tabindex="-1"
+		aria-labelledby="zvonimirVideoModalLabel"
+		aria-hidden="true"
+	>
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="zvonimirVideoModalLabel">Video</h5>
+				</div>
+				<div class="modal-body center">
+					<video class="ratio modal-video" controls>
+						<source src="video/zvonimir.mp4" type="video/mp4" />
+						Vaš preglednik ne podržava video element!
+					</video>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>

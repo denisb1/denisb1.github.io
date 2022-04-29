@@ -29,3 +29,8 @@
 .modal-content {
 	background-color: #161718;
 }
+
+.modal-video {
+	--bs-aspect-ratio: 50%;
+	height: 75vh;
+}
