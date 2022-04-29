@@ -34,3 +34,29 @@
 	--bs-aspect-ratio: 50%;
 	height: 75vh;
 }
+
+.link {
+	animation: move-left 0.125s forwards;
+}
+
+.link:hover {
+	animation: move-right 0.375s forwards;
+}
+
+@keyframes move-right {
+	from {
+		margin-left: 0;
+	}
+	to {
+		margin-left: 22px;
+	}
+}
+
+@keyframes move-left {
+	from {
+		margin-left: 22px;
+	}
+	to {
+		margin-left: 0;
+	}
+}
