@@ -13,6 +13,7 @@
 		<link href="css/Defaults.css" rel="stylesheet" />
 		<link href="css/Utils.css" rel="stylesheet" />
 		<link href="css/index.css" rel="stylesheet" />
+		<link rel="icon" type="image/x-icon" href="img/favicon/index.ico" />
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -20,7 +21,7 @@
 		></script>
 		<script src="js/footer.js"></script>
 
-		<title>Multimedijska tehnika - Konstrukcijske vježbe</title>
+		<title>Bošnjaković | Grizelj</title>
 	</head>
 
 	<div
@@ -59,9 +60,57 @@
 				<div class="modal-header">
 					<h5 class="modal-title" id="denisVideoModalLabel">Video</h5>
 				</div>
-				<div class="modal-body">
-					<video class="ratio ratio-16x9" controls>
+				<div class="modal-body center">
+					<video class="ratio modal-video" controls>
 						<source src="video/denis.webm" type="video/webm" />
+						Vaš preglednik ne podržava video element!
+					</video>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div
+		class="modal fade"
+		id="zvonimirAudioModal"
+		tabindex="-1"
+		aria-labelledby="zvonimirAudioModalLabel"
+		aria-hidden="true"
+	>
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="zvonimirAudioModalLabel">Audio</h5>
+				</div>
+				<div class="modal-body">
+					<audio class="mb-3 w-100" controls>
+						<source src="audio/zvonimir.m4a" type="audio/aac" />
+						Vaš preglednik ne podržava audio element!
+					</audio>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div
+		class="modal fade"
+		id="zvonimirVideoModal"
+		tabindex="-1"
+		aria-labelledby="zvonimirVideoModalLabel"
+		aria-hidden="true"
+	>
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="zvonimirVideoModalLabel">Video</h5>
+				</div>
+				<div class="modal-body center">
+					<video class="ratio modal-video" controls>
+						<source src="video/zvonimir.mp4" type="video/mp4" />
 						Vaš preglednik ne podržava video element!
 					</video>
 				</div>
@@ -86,15 +135,15 @@
 			/>
 
 			<div class="container grid-item">
-				<h2 class="my-4 center">Multimedijska tehnika</h2>
+				<h2 class="my-5 px-5 center">Portfolio studenata Grizelj i Bošnjaković.</h2>
 				<div class="row mt-4 py-3">
 					<div class="col-lg-6 center mb-4">
 						<div class="card index-card text-dark">
-							<a target="_blank" href="img/placeholder_l.png">
+							<a target="_blank" href="img/zvonimir_l.jpg">
 								<img
 									class="card-img-top img-thumbnail"
 									alt="Zvonimir Grizelj - Slika profila"
-									src="img/placeholder_s.png"
+									src="img/zvonimir_s.jpg"
 								/>
 							</a>
 							<div class="card-body">
@@ -121,7 +170,7 @@
 										</button>
 									</li>
 									<li class="list-group-item">
-										<a href="#" class="btn btn-dark w-100">Pogledajte portfolio</a>
+										<a href="zvonimir.html" class="btn btn-dark w-100">Pogledajte portfolio</a>
 									</li>
 								</ul>
 							</div>
@@ -161,23 +210,32 @@
 										</button>
 									</li>
 									<li class="list-group-item">
-										<a href="denis.html" class="btn btn-dark w-100"> Pogledajte portfolio </a>
+										<a href="denis.html" class="btn btn-dark w-100">Pogledajte portfolio</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="container py-3">
-					<h4>Linkovi na druge stranice</h4>
-					<ul>
-						<li>
-							<a target="_blank" href="#">Link 1</a>
-						</li>
-						<li>
-							<a target="_blank" href="#">Link 2</a>
-						</li>
-					</ul>
+				<div class="container py-3 my-2">
+					<h4>Pogledajte stranice ostalih kolega!</h4>
+					<div class="ms-5">
+						<h5>
+							<a class="link link-light" target="_blank" href="https://strmi8.github.io/"
+								>Strmečki i Valentić</a
+							>
+						</h5>
+						<h5>
+							<a class="link link-light" target="_blank" href="https://574515.github.io/"
+								>Vuko i Škrbina</a
+							>
+						</h5>
+						<h5>
+							<a class="link link-light" target="_blank" href="https://mdankovic2541.github.io/"
+								>Danković i Tutić</a
+							>
+						</h5>
+					</div>
 				</div>
 			</div>
 		</main>
