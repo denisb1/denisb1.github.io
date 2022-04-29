@@ -8,7 +8,7 @@
 	border-radius: 1rem;
 }
 
-.edu:hover .edu-img{
+.edu:hover .edu-img {
 	opacity: 0.3;
 	height: 17vh;
 }
@@ -26,4 +26,17 @@
 
 .lang-logo {
 	max-width: 66px;
+}
+
+.fade-in {
+	animation: fade-in 2.25s;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
